@@ -1,0 +1,34 @@
+#..........................................
+# GitHab Action Part-1 Basics
+#
+# Copyleft (c) by Fedor Kufaev 2022
+#..........................................
+
+name: My-GitHabActions-Basics
+
+
+on: 
+  
+  push: 
+    branches: 
+      - master
+    
+jobs:
+ my_testing:
+    
+    runs-on: ubuntu-latest
+
+   
+    steps:
+    - name: Print Hello Message
+      run: echo "Hello World from Testing job"
+     
+ my_roons:
+   runs-on: ubuntu-laterst
+   
+   steps:
+    - name: Print Hello Message
+      run: echo "Hello World from Roons job"
+   
+   
+  
